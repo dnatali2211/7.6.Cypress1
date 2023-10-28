@@ -1,0 +1,19 @@
+{
+  "name": "7_06-cypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "test:headless-chrome": "cypress run --browser chrome --headless",
+      "test:headed-chrome": "cypress run --browser chrome",
+      "test:headless-electron": "cypress run --browser electron --headless",
+      "test:headed-electron": "cypress run --browser electron"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+      "cypress": "^13.3.3"
+  }
+}
